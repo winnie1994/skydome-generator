@@ -8,6 +8,7 @@ export default defineConfig({
     host: true
   },
   build: {
+    target: 'esnext', // Support modern features including top-level await
     outDir: 'dist',
     assetsDir: 'assets',
     rollupOptions: {
